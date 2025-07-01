@@ -88,6 +88,15 @@ const Contact = () => {
                             onChange={handleChange}
                             className="w-full p-3 border rounded-md"
                         />
+                        <input 
+                            type="text"
+                            name="phone"
+                            required
+                            placeholder="Phone Number"
+                            value={formData.phone || ""}
+                            onChange={handleChange} 
+                            className="w-full p-3 border rounded-md"
+                        />
                         <textarea
                             name="message"
                             required

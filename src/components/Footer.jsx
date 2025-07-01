@@ -78,7 +78,7 @@ const Footer = () => {
                     {/* Right: Links, Projects, Connect */}
                     <div className="grid grid-cols-2 gap-6">
                         <div>
-                            <h4 className="font-bold text-lg mb-2">CONNECT WITH US :</h4>
+                            <h4 className="font-bold text-lg mb-2">CONNECT WITH US:</h4>
                             <ul className="space-y-1 text-sm">
                                 <li>• <a href="/" className="hover:text-yellow-200">Join Heaven Group</a></li>
                                 <li>• <a href="/" className="hover:text-yellow-200">Become a Channel Partner</a></li>

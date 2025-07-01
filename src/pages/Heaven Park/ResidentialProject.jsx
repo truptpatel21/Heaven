@@ -458,10 +458,23 @@ const ResidentialProject = () => {
                                     }`}
                             >
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                    <input type="date" className="w-full p-3 border-b-2 border-gray-300 text-gray-600 focus:border-red-600 bg-transparent outline-none" />
-                                    <input type="date" className="w-full p-3 border-b-2 border-gray-300 text-gray-600 focus:border-red-600 bg-transparent outline-none" />
+                                    <div className="flex flex-col">
+                                        <label className="mb-1 text-sm font-medium text-red-700">Schedule Visit Date</label>
+                                        <input
+                                            type="date"
+                                            className="w-full p-3 border-b-2 border-gray-300 text-gray-600 focus:border-red-600 bg-transparent outline-none"
+                                        />
+                                    </div>
+                                    <div className="flex flex-col">
+                                        <label className="mb-1 text-sm font-medium text-red-700">Schedule Call Date</label>
+                                        <input
+                                            type="date"
+                                            className="w-full p-3 border-b-2 border-gray-300 text-gray-600 focus:border-red-600 bg-transparent outline-none"
+                                        />
+                                    </div>
                                 </div>
                             </div>
+
 
                             {/* Submit */}
                             <div

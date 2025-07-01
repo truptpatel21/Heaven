@@ -53,6 +53,10 @@ const Navbar = () => {
         visible: { opacity: 1, height: 'auto', transition: { duration: 0.4, ease: 'easeInOut' } },
     };
 
+    const handleLogoClick = () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    };
+
     return (
         <motion.header
             initial="visible"
@@ -70,6 +74,7 @@ const Navbar = () => {
                         whileHover={{ scale: 1.1, rotate: 5 }}
                         whileTap={{ scale: 0.95 }}
                         transition={{ type: 'spring', stiffness: 300, damping: 15 }}
+                        onClick={handleLogoClick}
                     />
                 </Link>
 
