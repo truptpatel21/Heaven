@@ -17,7 +17,7 @@ const SwiperBanner = () => {
 
     const [activeIndex, setActiveIndex] = useState(0);
 
-    // ✅ Force repaint on first load
+    //  Force repaint on first load
     useEffect(() => {
         const forceRepaint = () => {
             document.body.style.display = 'none';
