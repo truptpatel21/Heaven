@@ -80,11 +80,11 @@ const Footer = () => {
                         <div>
                             <h4 className="font-bold text-lg mb-2">CONNECT WITH US :</h4>
                             <ul className="space-y-1 text-sm">
-                                <li>• <a href="#" className="hover:text-yellow-200">Join Heaven Group</a></li>
-                                <li>• <a href="#" className="hover:text-yellow-200">Become a Channel Partner</a></li>
-                                <li>• <a href="#" className="hover:text-yellow-200">Join as Vendor</a></li>
+                                <li>• <a href="/" className="hover:text-yellow-200">Join Heaven Group</a></li>
+                                <li>• <a href="/" className="hover:text-yellow-200">Become a Channel Partner</a></li>
+                                <li>• <a href="/" className="hover:text-yellow-200">Join as Vendor</a></li>
                                 <li>• <a href="/contact" className="hover:text-yellow-200">Contact Us</a></li>
-                                <li>• <a href="#" className="hover:text-yellow-200">Share Feedback</a></li>
+                                {/* <li>• <a href="/feedback" className="hover:text-yellow-200">Share Feedback</a></li> */}
                             </ul>
                             <h4 className="font-bold text-lg mt-6 mb-2">PROJECTS :</h4>
                             <ul className="space-y-1 text-sm">
@@ -95,7 +95,7 @@ const Footer = () => {
                         <div>
                             <h4 className="font-bold text-lg mb-2">OTHER LINKS :</h4>
                             <ul className="space-y-1 text-sm grid grid-cols-2 gap-x-4">
-                                <li><a href="#" className="hover:text-yellow-200">Home</a></li>
+                                <li><a href="/" className="hover:text-yellow-200">Home</a></li>
                                 <li><a href="/projects/residential" className="hover:text-yellow-200">Residential</a></li>
                                 <li><a href="/projects/commercial" className="hover:text-yellow-200">Commercial</a></li>
                                 {/* <li><a href="#" className="hover:text-yellow-200">Industrial</a></li> */}
@@ -109,7 +109,7 @@ const Footer = () => {
                 {/* Bottom bar */}
                 <div className="border-t border-white/20 mt-10 pt-6 flex flex-col md:flex-row items-center justify-between text-sm text-gray-200">
                     <div className="space-x-4">
-                        <a href="#" className="hover:text-yellow-200">Privacy Policy</a>
+                        <a href="/" className="hover:text-yellow-200">Privacy Policy</a>
                         <span className="hidden md:inline">|</span>
                         <span>© Heaven Projects - {new Date().getFullYear()}</span>
                     </div>
