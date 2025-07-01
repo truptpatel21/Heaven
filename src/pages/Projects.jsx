@@ -54,6 +54,14 @@ const Projects = () => {
         },
     ];
 
+    const getColorClasses = (color) => {
+        const colorMap = {
+            purple: 'bg-purple-600 hover:bg-purple-700',
+            green: 'bg-green-600 hover:bg-green-700',
+        };
+        return colorMap[color] || 'bg-gray-600 hover:bg-gray-700'; // Fallback class
+    };
+
     return (
         <section className="bg-white py-24 px-6">
             <div className="flex items-center gap-4 mb-6" data-aos="fade-right">
@@ -110,7 +118,7 @@ const Projects = () => {
                             {/* Clickable Button */}
                             <Link
                                 to={project.path}
-                                className={`inline-block px-5 py-2 rounded-full text-sm font-semibold bg-${project.color}-600 hover:bg-${project.color}-700 transition`}
+                                className={`inline-block px-5 py-2 rounded-full text-sm font-semibold ${getColorClasses(project.color)} transition`}
                             >
                                 Explore More
                             </Link>
