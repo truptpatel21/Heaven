@@ -88,7 +88,7 @@ const Contact = () => {
                             onChange={handleChange}
                             className="w-full p-3 border rounded-md"
                         />
-                        <input 
+                        {/* <input 
                             type="text"
                             name="phone"
                             required
@@ -96,7 +96,7 @@ const Contact = () => {
                             value={formData.phone || ""}
                             onChange={handleChange} 
                             className="w-full p-3 border rounded-md"
-                        />
+                        /> */}
                         <textarea
                             name="message"
                             required
